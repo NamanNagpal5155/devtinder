@@ -1,9 +1,9 @@
 const express=require('express');
 const app=express();/// create a new appilication // instance of express js application
-// app.use("/",(req,res)=>{
-//     console.log("hello everyone i am active");
+app.use("/",(req,res)=>{
+    console.log("hello everyone i am active");
     
-// });
+});
 app.use("/hello",(req,res)=>{
     console.log("hello everyone");
     
